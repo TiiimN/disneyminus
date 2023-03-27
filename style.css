@@ -91,18 +91,37 @@ i {
   cursor: pointer;
 }
 
-/* .disneyButton_container {
-  background-image: linear-gradient(rgb(58, 60, 74), rgb(36, 38, 50));
-  width: 283.27px;
-  height: 159.33px;
-  margin-left: 10rem;
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0px 0px 0px 3px rgba(249, 249, 249, 0.1);
-  -moz-box-shadow: inset 0px 0px 0px 3px rgba(249, 249, 249, 0.1);
-  box-shadow: inset 0px 0px 0px 3px rgba(249, 249, 249, 0.1);
-  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s !important;
-  z-index: 100;
-} */
+.disneyButton_container:hover {
+  background-image: url("images/disney.gif");
+}
+
+.pixarButton_container:hover {
+  background-image: url("images/pixar.gif");
+}
+
+.marvelButton_container:hover {
+  background-image: url("images/marvel.gif");
+}
+
+.starWarsButton_container:hover {
+  background-image: url("images/starwars.gif");
+}
+
+.nationalButton_container:hover {
+  background-image: url("images/national.gif");
+}
+
+.starButton_container:hover {
+  background-image: url("images/star.gif");
+}
+
+.brandSection {
+  display: flex;
+}
+
+.brands {
+  justify-content: center;
+}
 
 .brandButton {
   margin: 20px 0px 0px 20px;
@@ -123,7 +142,8 @@ i {
 
 .brandButton:hover {
   position: relative;
-  transform: scale(1.02);
+  transform: scale(1.06);
+
   transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s !important;
   -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.712);
   -moz-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.712);
@@ -131,19 +151,11 @@ i {
   cursor: pointer;
 }
 
-.brandSection {
-  place-content: center flex-start;
-  display: flex;
-  -webkit-box-pack: start;
-  flex-flow: row wrap;
-  margin: 0px 0px 0px -20px;
-}
-
 .wrapper {
   width: 25rem;
 }
 
-.disneyButton_container:hover {
+/* .disneyButton_container:hover {
   position: relative;
   transform: scale(1.02);
   transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s !important;
@@ -151,7 +163,7 @@ i {
   -moz-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.712);
   box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.712);
   cursor: pointer;
-}
+} */
 
 .disneyButton_container:hover .hover-image {
   position: absolute;
